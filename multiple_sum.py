@@ -35,3 +35,5 @@ def run_tests():
 
 
 # Edit this code
+def multi_sum(n):
+

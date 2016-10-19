@@ -33,3 +33,5 @@ def run_tests():
 
 
 # Edit this code
+def print_squares(a, b):
+

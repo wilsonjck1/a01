@@ -35,3 +35,4 @@ def run_tests():
 
 # Edit this code
 def thermostat(temp):
+

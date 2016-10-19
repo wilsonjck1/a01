@@ -7,7 +7,7 @@ Problem:
       * Exactly the same, it should print "Exact match"
       * The same word but different case, it should print "Partial match"
     
-    Otherwise, print "Not the same"
+    Otherwise, print "No match"
 
 
 Tests:
@@ -17,11 +17,11 @@ Tests:
     >>> matcher("Shake", "shake")
     Partial match
     >>> matcher("The", "room")
-    Not the same
+    No match
     >>> matcher("tick", "Tick")
     Partial match
     >>> matcher("boom", ".")
-    Not the same
+    No match
 
 """
 
@@ -33,6 +33,4 @@ def run_tests():
 
 # Edit this code
 def matcher(word1, word2):
-
-
 
