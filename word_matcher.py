@@ -34,3 +34,16 @@ def run_tests():
 # Edit this code
 def matcher(word1, word2):
 
+    s = word1
+    t = word2
+
+    if s == t:
+        print("Exact match")
+
+    elif s.title() == t or s == t.title() :
+        print("Partial match")
+
+    else:
+        print("No match")
+        
+

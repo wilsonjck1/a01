@@ -37,3 +37,10 @@ def run_tests():
 # Edit this code
 def multi_sum(n):
 
+    total=0
+
+    for i in range (7, 7+1, n):
+        total=total+i
+        print(total)
+    
+

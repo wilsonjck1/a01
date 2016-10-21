@@ -30,7 +30,6 @@ Tests:
     False
     >>> spell_check("decieve")
     False
-
 """
 
 # Use this to test your solution. Don't edit it!
@@ -42,3 +41,13 @@ def run_tests():
 # Edit this code
 def spell_check(word):
 
+    s = word
+    if "ie" in s:
+        print("Correct")
+
+    elif "cie" in s:
+        print("false")
+
+    elif "ei" in s:
+        print("false")
+        
